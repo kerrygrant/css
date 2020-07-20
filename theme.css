@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+body {
+  margin: 0;
+}
+
+.Theme {
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+  color: #555;
+}
+div.topbar div.third {
+    width: calc(100% /3);
+    display: inline-block;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 15px 0px;
+    text-transform: uppercase;
+	letter-spacing: 3px;
+	    margin-top: 15px;
+border-right: 2px solid white;
+    box-sizing: border-box;
+}
+.wrap {
+	
+	width: 40%;
+  margin: 0 auto;
+}
+.Mobile {
+  color: #fff;
+  font-size: 0.9em;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Mobile span {
+  padding: 0.5em;
+}
+
+.Mobile a {
+  background-color: #444;
+  color: #fff;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.Mobile a:hover {
+  color: #d6ffe0;
+}
+
+.Header {
+  min-height: 5em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.Header-content {
+  z-index: 2;
+  margin-top: 1.5em;
+  color: #fff;
+  text-align: center;
+}
+
+.Header-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: calc(100% + 2px);
+  padding: 0.5em 0;
+  background-image: url("grey-background.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.Header-name {
+  font-size: 1.4em;
+}
+
+.Promotion {
+  color: #111;
+  padding: 0.7em 1.2em 0.9em;
+  border-bottom: 1px solid #ddd;
+}
+
+.Product {
+  width: calc(100% - 2.8em);
+  max-width: calc(1400px - 2.8em);
+  margin: 0 auto;
+  padding: 2em 1.2em;
+  display: flex;
+  background-image: url("https://grantedgifts.files.wordpress.com/2020/07/gift.png");
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  background-position: bottom -10em right;
+  background-clip: border-box;
+}
+
+.Product-info,
+.Product-images {
+  width: 50%;
+}
+
+.Product-info {
+  padding: 1em;
+}
+
+.Product-name {
+  font-weight: 700;
+  font-size: 1.7em;
+  color: #333;
+  text-transform: uppercase;
+}
+span.Product-Features {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    font-size: 1.4em;
+	
+}
+.Product-description {
+  color: #757575;
+}
+
+.Product-images {
+  text-align: center;
+}
+
+.Product-images input {
+  display: none;
+}
+
+.Product-images label {
+  display: inline-block;
+}
+
+.Product-image {
+  display: none;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Product-image img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 0.15em;
+  -webkit-border-radius: 0.15em;
+  -moz-border-radius: 0.15em;
+}
+
+.Product-thumbnail {
+  margin-top: 0.5em;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Product-thumbnail img:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.Product-thumbnail img {
+  max-width: 100%;
+  max-height: 50px;
+  border-radius: 0.15em;
+  -webkit-border-radius: 0.15em;
+  -moz-border-radius: 0.15em;
+}
+
+#img1:checked ~ #show1,
+#img2:checked ~ #show2,
+#img3:checked ~ #show3,
+#img4:checked ~ #show4,
+#img5:checked ~ #show5,
+#img6:checked ~ #show6,
+#img7:checked ~ #show7,
+#img8:checked ~ #show8,
+#img9:checked ~ #show9,
+#img10:checked ~ #show10,
+#img11:checked ~ #show11,
+#img12:checked ~ #show12,
+#img13:checked ~ #show13,
+#img14:checked ~ #show14,
+#img15:checked ~ #show15 {
+  display: flex;
+}
+
+.Tabs {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 1em;
+}
+
+.Tabs input {
+  display: none;
+}
+
+.Tabs label {
+  padding: 0.5em 1.4em;
+  font-size: 1em;
+  color: #333;
+  display: inline-block;
+  border-radius: 5em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  border: 1px solid #ddd;
+  margin-bottom: 1em;
+  margin-right: 0.1em;
+  transition: 200ms linear all;
+}
+
+.Tabs label:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(20, 136, 204, 0.15);
+  -moz-box-shadow: 0px 0px 0px 3px rgba(20, 136, 204, 0.15);
+  box-shadow: 0px 0px 0px 3px rgba(20, 136, 204, 0.15);
+}
+
+.Tabs label:last-child {
+  margin: 0;
+}
+
+.Tabs input:checked + label {
+  background-color: #a92025;
+  border-color: #a92025;
+  color: #fff;
+}
+
+.Tabs > div {
+  display: none;
+  
+  padding: 1.5em 2.5em;
+  border-top: 1px solid #ddd;
+  background-color: #e8e8ea;
+  text-align: center;
+}
+
+.Tabs > div p {
+  line-height: 1.3;
+}
+
+.Tabs > div a {
+  color: #333;
+}
+
+.Tabs > div video {
+  max-width: 100%;
+}
+
+.Tabs > div .Video {
+  margin-top: 2em;
+  border-radius: 0.15em;
+  -webkit-border-radius: 0.15em;
+  -moz-border-radius: 0.15em;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5{
+  transition: 150ms linear all;
+  display: block;
+}
+
+.Colours {
+  height: 0.5em;
+  width: 100%;
+  background: #333; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333,
+    #666
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333,
+    #666
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 860px) {
+  .Product {
+    flex-direction: column;
+    padding: 1em;
+    width: calc(100% - 2em);
+    background-size: 70% auto;
+    background-position: bottom -5em right;
+    background-clip: border-box;
+  }
+
+  .Product-images {
+    width: 100%;
+  }
+
+  .Product-image {
+    height: 300px;
+  }
+
+  .Product-info {
+    width: calc(100% - 2em);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Header-content {
+    margin-top: 1.6em;
+  }
+
+  .Promotion {
+    text-align: center;
+    padding: 1.3em 1em 1em;
+  }
+
+  .Mobile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Mobile a {
+    width: 100%;
+    padding: 0.3em 0;
+    text-align: center;
+    border-bottom: 1px solid #333;
+  }
+  
+}
