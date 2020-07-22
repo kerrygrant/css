@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+.Topbar {
+min-width: 560px;
+}
+
+
 .Theme {
   padding: 0;
   font-family: 'Jost', sans-serif;
